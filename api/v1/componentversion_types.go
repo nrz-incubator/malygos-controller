@@ -24,6 +24,7 @@ import (
 type ComponentVersionSpec struct {
 	ComponentRef     string   `json:"componentRef,omitempty"`
 	Version          string   `json:"version,omitempty"`
+	Description      string   `json:"description,omitempty"`
 	PublishedRegions []string `json:"publishedRegions,omitempty"`
 	PublicationDate  string   `json:"publicationDate,omitempty"`
 	DeprecationDate  string   `json:"deprecationDate,omitempty"`

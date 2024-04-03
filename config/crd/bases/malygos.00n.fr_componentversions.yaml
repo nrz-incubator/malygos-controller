@@ -43,6 +43,8 @@ spec:
                 type: string
               deprecationDate:
                 type: string
+              description:
+                type: string
               publicationDate:
                 type: string
               publishedRegions:
