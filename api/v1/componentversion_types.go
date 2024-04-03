@@ -26,6 +26,8 @@ type ComponentVersionSpec struct {
 	Version          string   `json:"version,omitempty"`
 	PublishedRegions []string `json:"publishedRegions,omitempty"`
 	PublicationDate  string   `json:"publicationDate,omitempty"`
+	DeprecationDate  string   `json:"deprecationDate,omitempty"`
+	RemovalDate      string   `json:"removalDate,omitempty"`
 }
 
 // ComponentVersionStatus defines the observed state of ComponentVersion

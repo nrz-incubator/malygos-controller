@@ -41,12 +41,16 @@ spec:
             properties:
               componentRef:
                 type: string
+              deprecationDate:
+                type: string
               publicationDate:
                 type: string
               publishedRegions:
                 items:
                   type: string
                 type: array
+              removalDate:
+                type: string
               version:
                 type: string
             type: object
